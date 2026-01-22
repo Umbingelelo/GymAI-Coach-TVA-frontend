@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', 'Roboto', sans-serif;
+  
+  /* GymAI Colors - Extending/Overriding if needed, but defaults are good */
+  /* Using standard slate-800/900 and emerald-400/500 */
+}
+
+/* Custom Utilities if needed */
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 10px rgba(16, 185, 129, 0.5); /* Emerald glow */
+  }
+}
