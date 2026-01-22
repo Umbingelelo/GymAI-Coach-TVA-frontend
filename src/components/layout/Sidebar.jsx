@@ -8,10 +8,10 @@ export function Sidebar({ className }) {
     const { logout } = useAuth();
 
     const links = [
-        { href: '/', label: 'Dashboard', icon: LayoutDashboard },
-        { href: '/workout', label: 'Active Workout', icon: Dumbbell },
-        { href: '/routines', label: 'Routines', icon: CalendarRange },
-        { href: '/exercises', label: 'Library', icon: Library },
+        { href: '/dashboard', label: 'Panel Principal', icon: LayoutDashboard },
+        { href: '/workout', label: 'Entrenar', icon: Dumbbell },
+        { href: '/routines', label: 'Rutinas', icon: CalendarRange },
+        { href: '/exercises', label: 'Ejercicios', icon: Library },
     ];
 
     return (
@@ -47,7 +47,7 @@ export function Sidebar({ className }) {
                     className="flex items-center gap-3 px-3 py-2.5 w-full rounded-lg text-sm font-medium text-slate-400 hover:text-red-400 hover:bg-slate-800 transition-colors cursor-pointer"
                 >
                     <LogOut className="h-5 w-5" />
-                    Logout
+                    Cerrar Sesión
                 </button>
             </div>
         </aside>

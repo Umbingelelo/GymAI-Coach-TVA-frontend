@@ -5,10 +5,10 @@ import { LayoutDashboard, Dumbbell, CalendarRange, Library } from 'lucide-react'
 
 export function MobileMenu() {
     const links = [
-        { href: '/', label: 'Home', icon: LayoutDashboard },
-        { href: '/workout', label: 'Workout', icon: Dumbbell },
-        { href: '/routines', label: 'Routines', icon: CalendarRange },
-        { href: '/exercises', label: 'Library', icon: Library },
+        { href: '/dashboard', label: 'Inicio', icon: LayoutDashboard },
+        { href: '/workout', label: 'Entrenar', icon: Dumbbell },
+        { href: '/routines', label: 'Rutinas', icon: CalendarRange },
+        { href: '/exercises', label: 'Ejercicios', icon: Library },
     ];
 
     return (
